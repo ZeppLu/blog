@@ -2,7 +2,7 @@ locale: "zh-CN"
 title: "Zepp's site"
 description: "Zepp is a boring boy longing for a true friend"
 url: "https://zepplu.github.io"
-baseurl: "/"
+baseurl: "/blog"
 
 skin: "/assets/css/skins/light.css"
 data_format: "%Y/%m/%d, %H:%M:%S"
@@ -26,5 +26,5 @@ google_fonts:
 plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
-    - jekyll-feed
+    - jekyll-gist
     - jekyll-paginate
